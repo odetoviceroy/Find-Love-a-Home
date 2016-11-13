@@ -1,0 +1,79 @@
+body {
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    vertical-align:top;
+}
+.error{
+    color:red;
+}
+#formDiv label{
+    width:230px;
+    vertical-align: top;
+    padding: 5px 0px;
+}
+#formDiv input{
+    width: 200px;
+}
+#formDiv *{
+    display:inline-block;
+}
+#formDiv .radioButtons{
+    width:100%;
+}
+#formDiv .radioButtons *{
+    display:inline-block;
+} 
+#formDiv .radioButtons #fundedText{
+    width:230px !important;
+}
+#formDiv .radioButtons #urgentText{
+    width:230px !important;
+}
+#formDiv .radioButtons input{
+    width:20px;
+}
+#formDiv .radioButtons label{
+    width:40px;
+}
+textarea{
+    width:400px;
+    height:150px;
+}
+#buttonsDiv{
+    width:100%;
+    margin-bottom:30px;
+}
+#buttonsDiv *{
+    display:inline-block;
+}    
+#formDiv #fundAmt{
+    width:80px;
+}
+#submitRight{
+    margin-left:92%;
+}
+.hiddenDiv{
+    margin:20px 0px;
+    padding:20px 10px 50px 20px;
+}
+#commentDiv{
+    width:100%;
+}
+#commentDiv label{
+    width:100px;
+}
+#commentDiv input{
+    width:276px;
+    padding:0px 50px 10px 0px;
+}
+#commentDiv textarea{
+    width:380px;
+    padding-bottom:20px;
+}
+#submitButton{
+    margin:10px 0px;
+}
+.itemPage{
+    width:75%;
+    padding-left:25%;
+}
